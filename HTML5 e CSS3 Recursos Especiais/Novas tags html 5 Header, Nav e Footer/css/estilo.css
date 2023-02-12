@@ -1,0 +1,203 @@
+/*Novas tags HTML5*/
+
+header {
+	border: 1px solid #ccc;
+	background: #f2f2f2;
+	padding: 10px;
+}
+
+nav {
+	border: 1px solid green;
+	background: f2f2f2;
+	padding: 10px;
+
+}
+a {
+	text-decoration: none;
+	color: blue;
+}
+nav a:hover{
+	text-decoration: none;
+	color: red;
+}
+
+footer {
+	background: #f2f2f2;
+}
+
+/*https://www.w3schools.com/css/css3_transitions.asp*/
+/*Transições*/
+/*
+#caixa {
+	width: 300px;
+	height: 300px;
+	background: orange;
+}
+
+#caixa:hover {
+	width: 400px;
+	background: yellow;
+	/*-webkit-transition: width 3s;
+	-moz-transition: width 3s;
+	-o-transition: width 3s;
+	transition: width 3s, background 3s;*/
+	/*transition: all 3s;
+}/*
+
+
+
+/*https://www.w3schools.com/css/css3_animations.asp*/
+/*https://www.w3schools.com/cssref/css3_pr_animation-direction.php*/
+
+/*Animações*/
+/*
+@-webkit-keyframes animacao-caixa {
+	from {
+		background-color: red;
+	} /*de onde (inicial)*/
+	/*to {
+		background-color: yellow;
+	} /* para (final)*/
+/*}*/
+
+/*@-moz-keyframes animacao-caixa {
+	from {
+		background-color: red;
+	} /*de onde (inicial)*/
+	/*to {
+		background-color: yellow;
+	} /* para (final)*/
+/*}
+@-o-keyframes animacao-caixa {
+	from {
+		background-color: red;
+	} /*de onde (inicial)*/
+	/*to {
+		background-color: yellow;
+	} /* para (final)*/
+/*}
+@keyframes animacao-caixa {
+	from {
+		background-color: red;
+		
+	} /*de onde (inicial)*/
+	/*to {
+		background-color: yellow;
+		
+	} /* para (final)*/
+/*}
+/*
+@keyframes animacao-caixa2 {
+	from {
+		background-color: blue;
+		border-radius: 0px;
+		top: 0px;
+		left: 0px; 
+		
+	} /*de onde (inicial)*/
+	to {
+		background-color: yellow;
+		border-radius: 300px;
+		top: 200px;
+		left: 200px; 
+
+	} /* para (final)*/
+}
+
+
+#caixa {
+	width: 300px;
+	height: 300px;
+	background-color: blue;
+	position: relative;
+	/*-webkit-animation-name: animacao-caixa2;
+	-moz-animation-name: animacao-caixa2;
+	-o-animation-name: animacao-caixa2;
+	animation-name: animacao-caixa2;
+	-webkit-animation-duration: 5s;
+	-moz-animation-duration: 5s;
+	-o-animation-duration: 5s;
+	animation-duration: 5s;
+	-webkit-animation-delay: 3s;
+	-moz-animation-delay: 3s;
+	-o-animation-delay: 3s;
+	animation-delay: 3s;
+	-webkit-animation-iteration-count: 2;
+	-moz-animation-iteration-count: 2;
+	-o-animation-iteration-count: 2;
+	animation-iteration-count: 2;
+	-webkit-animation-direction: alternate;
+	-moz-animation-direction: alternate;
+	-o-animation-direction: alternate;
+	-webkit-animation-direction: alternate;*/
+
+	-webkit-animation: animacao-caixa2 5s 3s 2 alternate;
+	-moz-animation: animacao-caixa2 5s 3s 2 alternate;
+	-o-animation: animacao-caixa2 5s 3s 2 alternate;
+	animation: animacao-caixa2 5s 3s 2 alternate;
+}
+
+
+
+/*https://www.w3schools.com/cssref/css3_pr_text-shadow.php*/
+/*https://www.w3schools.com/cssref/css3_pr_box-shadow.php*/
+/*#caixa {
+	width: 300px;
+	height: 300px;
+	padding: 8px;
+	margin: 20px;
+	background-color: #009670;
+	box-shadow: 20px 20px 5px 2px 20px black;
+}
+*/
+/*
+#caixa h1{
+	color: white;
+	/*text-shadow: 10px 0px black;*/
+	/*text-shadow: 10px 0px 5px rgba(0, 0, 0, 0.2);
+	
+}*/
+
+/*
+#caixa {
+	width: 300px;
+	height: 300px;
+	/*background: url(../imagens/camera.png);*/
+	/*background: linear-gradient(to left, red, green, yellow);*/
+	/*background: radial-gradient(red, green, yellow);*/
+}
+/*
+#caixa h1 {
+	/*background: rgba(255, 255, 255, 0.8);
+}*/
+
+/*https://www.w3schools.com/css/css3_colors.asp*/
+/*https://www.w3schools.com/css/css3_gradients.asp*/
+
+/*#caixa {
+	width: 300px;
+	height: 300px;
+	background: #b9c941;
+	padding: 50px;
+	-webkit-box-sizing: border-box; /*border-box informa ao navegador para considerar qualquer borda e preenchimento nos valores especificados para largura e altura de um elemento . Se você definir a largura de um elemento para 100 pixels, esses 100 pixels incluirão qualquer borda ou preenchimento adicionado e a caixa de conteúdo encolherá para absorver essa largura extra.*/
+/*	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 10px;
+	-webkit-border-radius: 20px 90px;
+	-moz-border-radius: 20px 90px;
+	-webkit-border-radius: 20px 90px;
+	border-radius: 20px 90px;
+}
+
+#caixa2 {
+	width: 300px;
+	height: 300px;
+	background: #b9c941;
+	padding: 10px;
+	margin: 10px;
+	-webkit-border-radius: 20px 90px;
+	-moz-border-radius: 20px 90px;
+	-webkit-border-radius: 20px 90px;
+	border-radius: 20px 90px;
+}*/
