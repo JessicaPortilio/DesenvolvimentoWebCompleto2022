@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; /*box-sizing: border-box que indica que o tamanho agora levará em conta até a borda -- ou seja, o width será a soma do conteúdo com a borda e o padding.*/
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+html, body{
+	background-color: black;
+	min-height: 100% | !important; /*A min-heightpropriedade define a altura mínima de um elemento.*/
+	width: 100%;
+	max-width: 450px;
+	min-height: 100px;
+	margin: 0 auto;
+}
+
+.total{
+	color: white;
+	text-align: end; /*Alinhando o texto a direita*/
+	font-size: 100px;
+	margin: 10px;
+	margin-right: 20px; /*efine a área de margem no lado direito de um elemento.*/
+}
+
+.container{
+	display: flex;
+	flex-direction: column; /*define como os flex items são colocados no flex container definindo o eixo principal e a direção */
+	margin-top: 170px;
+
+}
+
+.buttons{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+
+}
+
+.item{
+	height: 100px;
+	font-size: 50px;
+	border-radius: 100%;
+	margin: 1px;
+}
+
+.item-grey{
+	background-color: rgb(132, 132, 132);
+	border: 0;
+}
+
+.item-orange{
+	background-color: #ff8431;
+	border: 0;
+}
+
+.item-darkgrey{
+	background-color: rgb(55, 55, 44);
+	border: 0;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box; /*box-sizing: border-box que indica que o tamanho agora levará em conta até a borda -- ou seja, o width será a soma do conteúdo com a borda e o padding.*/
+				font-family: Arial, Helvetica, sans-serif;
+
+			}
+			body {
+			    background-color: #F0B86C;
+			    max-width: 900px;
+			    margin: 1rem auto;
+	  		}
+
+			.galeria {
+				display: flex;
+			    height: 20rem;
+			    gap: 1rem
+
+			}
+			
+			.div1 {
+			  width: 460px;
+			  height: 345px;
+			  background-image: url(https://i.pinimg.com/564x/ad/bf/d5/adbfd5660370ec3c8f0b9a0b56845e01.jpg);
+			  background-repeat: no-repeat;
+			  background-size: contain;
+			  
+			}
+
+			.div2 {
+			  width: 460px;
+			  height: 345px;
+			  background-image: url(https://i.pinimg.com/564x/21/a2/ec/21a2ec20580da15e848e418e4b22c68d.jpg);
+			  background-repeat: no-repeat;
+			  background-size: contain;
+			  
+			}
+			.div3 {
+			  width: 460px;
+			  height: 345px;
+			  background-image: url(https://i.pinimg.com/564x/d2/00/7c/d2007cdbfb1316197feddea5201e1601.jpg);
+			  background-repeat: no-repeat;
+			  background-size: contain;
+			 
+			}
+
+			.div4 {
+			  width: 460px;
+			  height: 345px;
+			  background-image: url(https://i.pinimg.com/564x/46/23/b7/4623b78a926a6eb7d2b168cfb03edba8.jpg);
+			  background-repeat: no-repeat;
+			  background-size: contain;
+			  
+			}
+
+			.div5 {
+			  width: 460px;
+			  height: 345px;
+			  background-image: url(https://i.pinimg.com/564x/a0/b0/5f/a0b05fd778e5d1710af59e23dcd09b25.jpg);
+			  background-repeat: no-repeat;
+			  background-size: contain;
+			  
+			}
+
+			.galeria > div{
+				flex: 1;
+			    border-radius: 1rem;
+			    background-position: center;
+			    background-repeat: no-repeat;
+			    background-size: auto 100%;
+
+			    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+			}
+
+			.galeria > div:hover{
+				flex: 5;
+			}
+
+		</style>
+	</head>
+	<body>
+
+		<div class="galeria">
+
+			<div class="div1" width="460" height="345"></div>
+			<div class="div2" width="460" height="345"></div>
+			<div class="div3" width="460" height="345"></div>
+			<div class="div4" width="460" height="345"></div>
+			<div class="div5" width="460" height="345"></div>
+
+		</div>
+		<div>
+			<h1 style="padding-top: 40px; text-align: center; ">Colocar o título</h1>
+			<p>Escrever</p>
+		</div>
+		
+		
+
+	</body>
+
+</html>
+

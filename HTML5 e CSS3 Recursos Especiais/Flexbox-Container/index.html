@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Flexbox-Container</title>
+
+		<style type="text/css">
+			/*
+			https://www.w3schools.com/cssref/css3_pr_flex-direction.php 
+			https://www.w3schools.com/cssref/css3_pr_flex-wrap.php
+			https://www.w3schools.com/cssref/css3_pr_justify-content.php
+			https://www.w3schools.com/cssref/css3_pr_align-items.php
+			*/
+
+			#conteudo {
+				background: #dcdcdc;
+				
+				height: 600px;
+				display: flex;
+
+				/*
+					row | row-reverse | column | column-reverse
+				*/
+				flex-direction: row;
+
+				/*nowrap | wrap | wrap-reverse */
+				/*flex-wrap: nowrap; /*Aperta para caber tudo dentro do conteiner sem quebrar nada*/
+				/*flex-wrap: wrap; /*Só fica o que cabe*/
+				/*flex-wrap: wrap-reverse;*/
+				
+				flex-wrap: wrap;
+
+				/*
+					flex-start | flex-end | center | space-between | space-around
+				*/
+
+				justify-content: space-around ;
+
+				/*
+					stretch | center | flex-start | flex-end | baseline
+				*/
+
+				align-items: baseline;
+
+			}
+
+			.item {
+				
+				margin: 10px;
+				background: white;
+				border: 1px solid gray;
+			}
+		</style>
+
+	</head>
+	<body>
+		<h1>Flexbox</h1>
+		<div id="conteudo">
+			<div class="item" style="padding-top: 60px ;">01</div>
+			<div class="item">02</div>
+			<div class="item">03</div>
+			<div class="item">04</div>
+			<div class="item">05 <br> mais conteúdo</div>
+		</div>
+	</body>
+</html>

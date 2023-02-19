@@ -7,7 +7,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Compatibilidade HTML5</title>
+		<title>Novas tags de Input</title>
 		<!-- Normalize CSS -->
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<!-- Estilo customizado -->
@@ -78,6 +78,43 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
 		</aside><!--Ao lado-->
+
+		<form>
+			<!-- Novos Inputs e atributos HTML 5 -->
+			<label for="nome">Nome</label>
+			<input type="text" name="nome" id="nome" required autofocus>
+			<br><br>
+
+			<label for="email">Email</label>
+			<input type="email" name="email" id="email" required >
+			<br><br>
+
+			<label for="numero">Número</label>
+			<input type="number" name="numero" id="numero" min="5" max="20" step="5">
+			<br><br>
+
+			<label for="url">URL</label>
+			<input type="url" name="url" id="url" placeholder="ex: https//www...">
+			<br><br>
+
+			<label for="pesqisa">Pesquisa</label>
+			<input type="search" name="pesqisa" id="pesqisa">
+			<br><br>
+
+			<label for="range">Faixa</label>
+			<input type="range" name="range" id="range" min="1" max="20" value=" 10">
+			<br><br>
+
+			<label for="data">Data</label>
+			<input type="date" name="data" id="data">
+			<br><br>
+
+			<label for="cor">Cor</label>
+			<input type="color" name="cor" id="cor">
+			<br><br>
+
+			<input type="submit" name="" value="Enviar">
+		</form>
 
 		<!--<div id="rodape"></div>-->
 		<footer>
