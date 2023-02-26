@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Atividade JavaScript</title>
+	<script>
+		var numero = prompt('Informe um número: ')
+		var operacao = prompt('Informe a operação desejada (soma, subtração): ')
+		var numero2 = prompt('Informe o outro número: ')
+
+		numero = parseInt(numero)
+		numero2 = parseInt(numero2)
+		function calculadora(numero, numero2, operacao){
+			switch (operacao){
+				case 'soma':
+					soma = numero + numero2
+					return soma
+					break
+				case 'subtração':
+					subtracao = numero - numero2
+					return subtracao
+					break
+				default:
+					return'Operação não existe!'
+			}
+		}
+
+		document.write('O resultado é: '+calculadora(numero, numero2, operacao))
+	</script>
+</head>
+<body>
+
+</body>
+</html>
